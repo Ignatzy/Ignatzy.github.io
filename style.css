@@ -1,22 +1,49 @@
 
-body {
-  background-image: url('chmury.jfif');
+body 
+{
+  background-image: url('tlo-fotograficzne-stare-deski-jasnobrazowe.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
-h1 { border: 8px outset black; 
-background-color: rgb(157, 193, 224);}
-h2 { border: 6px outset black;
-  background-color: rgb(157, 193, 224) }
-p { border: 4px outset rgb(0, 0, 0);
-  background-color: rgb(157, 193, 224);
-  font-size:15px;
-  }
+h1 
+{
+  font-family:'Comic Sans MS', Comic sans-serif, cursive;
+  
+}
+h1 
+{ 
+border: 8px outset black; 
+background-color: rgb(157, 193, 224);
+}
 
+h2 
+{ 
+  font-family:'Comic Sans MS', Comic sans-serif, cursive;
+border: 6px outset black;
+background-color: rgb(174, 203, 228)
+}
+p
+{
+  font-family: 'Arial', sans-serif;
+   border: 4px outset rgb(0, 0, 0);
+  background-color: rgb(187, 209, 228) 
+}
+  #architekt.jpg 
+{
+    image-rendering: pixelated;
+}
 
-  #zolw.jfif{
-    width:80px;
-    margin:80px 80px 80px;
-  }
+div{
+max-width:fit-content 700px;
+margin:auto 600px;
+}
+h3
+{
+  color: aliceblue;
+}
+a{
+  color:aliceblue;
+  
+}
