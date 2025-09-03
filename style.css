@@ -16,6 +16,7 @@ h1
 { 
 border: 8px outset black; 
 background-color: rgb(157, 193, 224);
+max-width: 100%
 }
 
 h2 
@@ -29,10 +30,12 @@ p
   font-family: 'Arial', sans-serif;
    border: 4px outset rgb(0, 0, 0);
   background-color: rgb(187, 209, 228) 
+  max-width: 100%
 }
   #architekt.jpg 
 {
-    image-rendering: pixelated;
+  max-width: 100%
+  image-rendering: pixelated;
 }
 
 div{
@@ -47,3 +50,4 @@ a{
   color:aliceblue;
   
 }
+
