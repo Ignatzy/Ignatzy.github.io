@@ -1,54 +1,69 @@
-
-body 
-{
+body {
   background-image: url('tlo-fotograficzne-stare-deski-jasnobrazowe.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
-h1 
-{
-  font-family:'Comic Sans MS', Comic sans-serif, cursive;
-  
-}
-h1 
-{ 
-border: 8px outset black; 
-background-color: rgb(157, 193, 224);
 
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 10px;
 }
 
-h2 
-{ 
-  font-family:'Comic Sans MS', Comic sans-serif, cursive;
-border: 6px outset black;
-background-color: rgb(174, 203, 228)
+.container h1,
+.container h2,
+.container h3,
+.container p,
+.container a {
+  text-align: center;
 }
-p
-{
+
+h1 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  border: 8px outset black;
+  background-color: rgb(157, 193, 224);
+}
+
+h2 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  border: 6px outset black;
+  background-color: rgb(174, 203, 228);
+}
+
+p {
   font-family: 'Arial', sans-serif;
-   border: 4px outset rgb(0, 0, 0);
-  background-color: rgb(187, 209, 228) 
-  
-}
-  #architekt.jpg 
-{
- 
-  image-rendering: pixelated;
+  border: 4px outset rgb(0, 0, 0);
+  background-color: rgb(187, 209, 228);
 }
 
-div{
-max-width:fit-content 700px;
-margin:auto 600px;
+.architekt {
+  image-rendering: pixelated;
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  height: auto;
 }
-h3
-{
+
+h3 {
   color: aliceblue;
 }
-a{
-  color:aliceblue;
-  
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 8px;
+  }
 }
 
 
