@@ -32,6 +32,11 @@ h2 {
   background-color: rgb(174, 203, 228);
 }
 
+h2:hover {
+  background-color: rgb(150, 190, 220);
+  cursor: default;
+}
+
 p {
   font-family: 'Arial', sans-serif;
   border: 4px outset rgb(0, 0, 0);
@@ -53,9 +58,11 @@ h3 {
 a {
   color: aliceblue;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover {
+  color: yellow;
   text-decoration: underline;
 }
 
@@ -65,5 +72,6 @@ a:hover {
     padding: 8px;
   }
 }
+
 
 
