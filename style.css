@@ -21,13 +21,13 @@ body {
 }
 
 h1 {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Comic Neue', cursive;
   border: 8px outset black;
   background-color: rgb(157, 193, 224);
 }
 
 h2 {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Comic Neue', cursive;
   border: 6px outset black;
   background-color: rgb(174, 203, 228);
 }
@@ -72,6 +72,7 @@ a:hover {
     padding: 8px;
   }
 }
+
 
 
 
