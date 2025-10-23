@@ -25,6 +25,10 @@ h1 {
   border: 8px outset black;
   background-color: rgb(157, 193, 224);
 }
+h1:hover {
+  background-color: rgb(150, 190, 220);
+  cursor: default;
+}
 
 h2 {
   font-family: 'Comic Neue', cursive;
@@ -41,6 +45,11 @@ p {
   font-family: 'Arial', sans-serif;
   border: 4px outset rgb(0, 0, 0);
   background-color: rgb(187, 209, 228);
+}
+
+p:hover {
+  background-color: rgb(150, 190, 220);
+  cursor: default;
 }
 
 .architekt {
@@ -72,6 +81,7 @@ a:hover {
     padding: 8px;
   }
 }
+
 
 
 
